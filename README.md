@@ -28,6 +28,7 @@ Name | Description | Status
 
 ```shell
 go get github.com/adshao/go-binance/v2
+go mod edit -replace github.com/adshao/go-binance/v2=github.com/qRoC/go-binance/v2@v2.3.3
 ```
 
 For v1 API, it has been moved to `v1` branch, please use:
